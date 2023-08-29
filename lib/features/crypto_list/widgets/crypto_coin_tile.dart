@@ -9,7 +9,7 @@ class CryptoCoinTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListTile(
-      leading: Image.network(coin.imageURl),
+      leading: Image.network(coin.imageURL),
       trailing: const Icon(Icons.arrow_forward_ios),
       title: Text(
         coin.name,
